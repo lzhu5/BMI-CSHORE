@@ -1,0 +1,319 @@
+The system is: Linux - 3.10.0-1160.25.1.el7.x86_64 - x86_64
+Compiling the Fortran compiler identification source file "CMakeFortranCompilerId.F" succeeded.
+Compiler: /home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran 
+Build flags: -fopenmp;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/lingzhu/.conda/envs/bblz_bmicshore/include
+Id flags: -v 
+
+The output was:
+0
+Driving: /home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include -v CMakeFortranCompilerId.F -l gfortran -l m -shared-libgcc
+Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran
+COLLECT_LTO_WRAPPER=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0
+Thread model: posix
+gcc version 9.4.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-shared-libgcc' '-pthread'
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/f951 CMakeFortranCompilerId.F -ffixed-form -cpp=/tmp/cc5CjkHW.f90 -quiet -v -iprefix /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/ -isysroot /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot -D_REENTRANT -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include CMakeFortranCompilerId.F -quiet -dumpbase CMakeFortranCompilerId.F -march=nocona -mtune=haswell -auxbase CMakeFortranCompilerId -O2 -version -fopenmp -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -fintrinsic-modules-path /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude -o - |
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o /tmp/ccLMDp62.o
+GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+GNU Fortran (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include"
+ignoring nonexistent directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed"
+ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lingzhu/.conda/envs/bblz_bmicshore/include
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude
+ /home/lingzhu/publictools/include
+ .
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-shared-libgcc' '-pthread'
+COMPILER_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/:/home/lingzhu/publictools/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/lingzhu/publictools/lib/:./:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgomp.spec
+COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-shared-libgcc' '-pthread'
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2 -plugin /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTTws19.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0 -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc -L/home/lingzhu/publictools/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/lingzhu/publictools/lib -L. -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../.. -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib /tmp/ccLMDp62.o -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/lingzhu/.conda/envs/bblz_bmicshore/lib
+COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-shared-libgcc' '-pthread'
+
+
+Compilation of the Fortran compiler identification source "CMakeFortranCompilerId.F" produced "a.out"
+
+The Fortran compiler identification is GNU, found in "/scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/3.21.3/CompilerIdFortran/a.out"
+
+Detecting Fortran compiler ABI info compiled with the following output:
+Change Dir: /scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecd59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecd59.dir/build.make CMakeFiles/cmTC_ecd59.dir/build
+gmake[1]: Entering directory `/scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o
+/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran   -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include    -v -c /home/lingzhu/.conda/envs/bblz_bmicshore/share/cmake-3.21/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o
+Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0
+Thread model: posix
+gcc version 9.4.0 (GCC) 
+COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-c' '-o' 'CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o' '-pthread'
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/f951 /home/lingzhu/.conda/envs/bblz_bmicshore/share/cmake-3.21/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccgbWHHI.f90 -quiet -v -iprefix /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/ -isysroot /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot -D_REENTRANT -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include /home/lingzhu/.conda/envs/bblz_bmicshore/share/cmake-3.21/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -O2 -version -fopenmp -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -fintrinsic-modules-path /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude -o - |
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o
+GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1
+GNU Fortran (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include"
+ignoring nonexistent directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed"
+ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lingzhu/.conda/envs/bblz_bmicshore/include
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude
+ /home/lingzhu/publictools/include
+ .
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+End of search list.
+GNU Fortran2008 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)
+	compiled by GNU C version 9.4.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+COMPILER_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/:/home/lingzhu/publictools/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/lingzhu/publictools/lib/:./:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-c' '-o' 'CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o' '-pthread'
+Linking Fortran executable cmTC_ecd59
+/home/lingzhu/.conda/envs/bblz_bmicshore/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecd59.dir/link.txt --verbose=1
+/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/lingzhu/.conda/envs/bblz_bmicshore/lib -Wl,-rpath-link,/home/lingzhu/.conda/envs/bblz_bmicshore/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/lib -v -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include  CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -o cmTC_ecd59 
+Driving: /home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/lingzhu/.conda/envs/bblz_bmicshore/lib -Wl,-rpath-link,/home/lingzhu/.conda/envs/bblz_bmicshore/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/lib -v -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -o cmTC_ecd59 -l gfortran -l m -shared-libgcc
+Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs
+COLLECT_GCC=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran
+COLLECT_LTO_WRAPPER=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper
+Target: x86_64-conda-linux-gnu
+Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0
+Thread model: posix
+gcc version 9.4.0 (GCC) 
+Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgfortran.spec
+rename spec lib to liborig
+COLLECT_GCC_OPTIONS='-L/home/lingzhu/.conda/envs/bblz_bmicshore/lib' '-v' '-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-o' 'cmTC_ecd59' '-shared-libgcc' '-pthread'
+COMPILER_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/
+LIBRARY_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/:/home/lingzhu/publictools/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/lingzhu/publictools/lib/:./:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgomp.spec
+COLLECT_GCC_OPTIONS='-L/home/lingzhu/.conda/envs/bblz_bmicshore/lib' '-v' '-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-o' 'cmTC_ecd59' '-shared-libgcc' '-pthread'
+ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2 -plugin /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwdFP4S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ecd59 /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o -L/home/lingzhu/.conda/envs/bblz_bmicshore/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0 -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc -L/home/lingzhu/publictools/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/lingzhu/publictools/lib -L. -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../.. -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/lingzhu/.conda/envs/bblz_bmicshore/lib -rpath-link /home/lingzhu/.conda/envs/bblz_bmicshore/lib CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/lingzhu/.conda/envs/bblz_bmicshore/lib
+COLLECT_GCC_OPTIONS='-L/home/lingzhu/.conda/envs/bblz_bmicshore/lib' '-v' '-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-o' 'cmTC_ecd59' '-shared-libgcc' '-pthread'
+gmake[1]: Leaving directory `/scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed Fortran implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/lingzhu/.conda/envs/bblz_bmicshore/include]
+    add: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude]
+    add: [/home/lingzhu/publictools/include]
+    add: [.]
+    add: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+    add: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+    add: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include]
+    add: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  end of search list found
+  collapse include dir [/home/lingzhu/.conda/envs/bblz_bmicshore/include] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/include]
+  collapse include dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude]
+  collapse include dir [/home/lingzhu/publictools/include] ==> [/home/lingzhu/publictools/include]
+  skipping relative include dir [.]
+  collapse include dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+  collapse include dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+  collapse include dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/include]
+  collapse include dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/include]
+  implicit include dirs: [/home/lingzhu/.conda/envs/bblz_bmicshore/include;/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude;/home/lingzhu/publictools/include;/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include;/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed;/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/include;/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/include]
+
+
+Parsed Fortran implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-conda-linux-gnu-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ecd59/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ecd59.dir/build.make CMakeFiles/cmTC_ecd59.dir/build]
+  ignore line: [gmake[1]: Entering directory `/scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp']
+  ignore line: [Building Fortran object CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran   -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include    -v -c /home/lingzhu/.conda/envs/bblz_bmicshore/share/cmake-3.21/Modules/CMakeFortranCompilerABI.F -o CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-c' '-o' 'CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o' '-pthread']
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/f951 /home/lingzhu/.conda/envs/bblz_bmicshore/share/cmake-3.21/Modules/CMakeFortranCompilerABI.F -ffixed-form -cpp=/tmp/ccgbWHHI.f90 -quiet -v -iprefix /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/ -isysroot /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot -D_REENTRANT -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include /home/lingzhu/.conda/envs/bblz_bmicshore/share/cmake-3.21/Modules/CMakeFortranCompilerABI.F -quiet -dumpbase CMakeFortranCompilerABI.F -march=nocona -mtune=haswell -auxbase-strip CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -O2 -version -fopenmp -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -fintrinsic-modules-path /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude -o - |]
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o]
+  ignore line: [GNU assembler version 2.36.1 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.36.1]
+  ignore line: [GNU Fortran (GCC) version 9.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+  ignore line: [ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/include]
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/finclude]
+  ignore line: [ /home/lingzhu/publictools/include]
+  ignore line: [ .]
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include]
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/include-fixed]
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/include]
+  ignore line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU Fortran2008 (GCC) version 9.4.0 (x86_64-conda-linux-gnu)]
+  ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [COMPILER_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/:/home/lingzhu/publictools/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/lingzhu/publictools/lib/:./:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-v' '-c' '-o' 'CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o' '-pthread']
+  ignore line: [Linking Fortran executable cmTC_ecd59]
+  ignore line: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecd59.dir/link.txt --verbose=1]
+  ignore line: [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl -rpath /home/lingzhu/.conda/envs/bblz_bmicshore/lib -Wl -rpath-link /home/lingzhu/.conda/envs/bblz_bmicshore/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/lib -v -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include  CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -o cmTC_ecd59 ]
+  ignore line: [Driving: /home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl -rpath /home/lingzhu/.conda/envs/bblz_bmicshore/lib -Wl -rpath-link /home/lingzhu/.conda/envs/bblz_bmicshore/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/lib -v -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -o cmTC_ecd59 -l gfortran -l m -shared-libgcc]
+  ignore line: [Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/specs]
+  ignore line: [COLLECT_GCC=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper]
+  ignore line: [Target: x86_64-conda-linux-gnu]
+  ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-default-pie --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-libsanitizer --enable-lto --enable-threads=posix --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --enable-default-pie --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_build_env/x86_64-conda-linux-gnu/sysroot --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1634095554843/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/include/c++/9.4.0]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.4.0 (GCC) ]
+  ignore line: [Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgfortran.spec]
+  ignore line: [rename spec lib to liborig]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/home/lingzhu/.conda/envs/bblz_bmicshore/lib' '-v' '-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-o' 'cmTC_ecd59' '-shared-libgcc' '-pthread']
+  ignore line: [COMPILER_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/bin/]
+  ignore line: [LIBRARY_PATH=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/:/home/lingzhu/publictools/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/lingzhu/publictools/lib/:./:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+  ignore line: [Reading specs from /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib/libgomp.spec]
+  ignore line: [COLLECT_GCC_OPTIONS='-L/home/lingzhu/.conda/envs/bblz_bmicshore/lib' '-v' '-fopenmp' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/lingzhu/.conda/envs/bblz_bmicshore/include' '-o' 'cmTC_ecd59' '-shared-libgcc' '-pthread']
+  link line: [ /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2 -plugin /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccwdFP4S.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lquadmath -plugin-opt=-pass-through=-lm -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_ecd59 /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o -L/home/lingzhu/.conda/envs/bblz_bmicshore/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0 -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc -L/home/lingzhu/publictools/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/lingzhu/publictools/lib -L. -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../.. -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections -rpath /home/lingzhu/.conda/envs/bblz_bmicshore/lib -rpath-link /home/lingzhu/.conda/envs/bblz_bmicshore/lib CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o -lgfortran -lm -lgomp -lgcc_s -lgcc -lquadmath -lm -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o /home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/lingzhu/.conda/envs/bblz_bmicshore/lib]
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../libexec/gcc/x86_64-conda-linux-gnu/9.4.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccwdFP4S.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lquadmath] ==> ignore
+    arg [-plugin-opt=-pass-through=-lm] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_ecd59] ==> ignore
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o] ==> obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/lib]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc]
+    arg [-L/home/lingzhu/publictools/lib/../lib] ==> dir [/home/lingzhu/publictools/lib/../lib]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+    arg [-L/home/lingzhu/publictools/lib] ==> dir [/home/lingzhu/publictools/lib]
+    arg [-L.] ==> ignore
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+    arg [-L/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+    arg [-O2] ==> ignore
+    arg [--sort-common] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [--disable-new-dtags] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [-rpath] ==> ignore
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/lib] ==> ignore
+    arg [-rpath-link] ==> ignore
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/lib] ==> ignore
+    arg [CMakeFiles/cmTC_ecd59.dir/CMakeFortranCompilerABI.F.o] ==> ignore
+    arg [-lgfortran] ==> lib [gfortran]
+    arg [-lm] ==> lib [m]
+    arg [-lgomp] ==> lib [gomp]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lquadmath] ==> lib [quadmath]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lpthread] ==> lib [pthread]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o] ==> obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o]
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+    arg [-rpath] ==> ignore
+    arg [/home/lingzhu/.conda/envs/bblz_bmicshore/lib] ==> ignore
+  collapse obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+  collapse obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+  collapse obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o]
+  collapse obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o]
+  collapse obj [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc]
+  collapse library dir [/home/lingzhu/publictools/lib/../lib] ==> [/home/lingzhu/publictools/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  collapse library dir [/home/lingzhu/publictools/lib] ==> [/home/lingzhu/publictools/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../lib/gcc/x86_64-conda-linux-gnu/9.4.0/../../..] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/lib]
+  collapse library dir [/home/lingzhu/.conda/envs/bblz_bmicshore/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit libs: [gfortran;m;gomp;gcc_s;gcc;quadmath;m;gcc_s;gcc;pthread;c;gcc_s;gcc]
+  implicit objs: [/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtbeginS.o;/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0/crtendS.o;/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+  implicit dirs: [/home/lingzhu/.conda/envs/bblz_bmicshore/lib;/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc/x86_64-conda-linux-gnu/9.4.0;/home/lingzhu/.conda/envs/bblz_bmicshore/lib/gcc;/home/lingzhu/publictools/lib;/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/lib;/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/lib;/home/lingzhu/.conda/envs/bblz_bmicshore/x86_64-conda-linux-gnu/sysroot/usr/lib]
+  implicit fwks: []
+
+
+Determining if the Fortran compiler supports Fortran 90 passed with the following output:
+Change Dir: /scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ccb62/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ccb62.dir/build.make CMakeFiles/cmTC_ccb62.dir/build
+gmake[1]: Entering directory `/scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp'
+Building Fortran object CMakeFiles/cmTC_ccb62.dir/testFortranCompilerF90.f90.o
+/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran   -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include  -c /scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp/testFortranCompilerF90.f90 -o CMakeFiles/cmTC_ccb62.dir/testFortranCompilerF90.f90.o
+Linking Fortran executable cmTC_ccb62
+/home/lingzhu/.conda/envs/bblz_bmicshore/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccb62.dir/link.txt --verbose=1
+/home/lingzhu/.conda/envs/bblz_bmicshore/bin/x86_64-conda-linux-gnu-gfortran -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/lingzhu/.conda/envs/bblz_bmicshore/lib -Wl,-rpath-link,/home/lingzhu/.conda/envs/bblz_bmicshore/lib -L/home/lingzhu/.conda/envs/bblz_bmicshore/lib  -fopenmp -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/lingzhu/.conda/envs/bblz_bmicshore/include  CMakeFiles/cmTC_ccb62.dir/testFortranCompilerF90.f90.o -o cmTC_ccb62 
+gmake[1]: Leaving directory `/scratch/lingzhu/ERDC_DuneProject/BMI/build_bmi_cshore/bmi_cshore_src/_build/CMakeFiles/CMakeTmp'
+
+
+
